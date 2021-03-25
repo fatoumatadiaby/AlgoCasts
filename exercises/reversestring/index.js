@@ -23,5 +23,11 @@ function reverse(srt) {
     return reversed 
 
 }
+function reverse(srt) {
+    str.split('').reduce((reversed, character) => {
+        return character + reversed;
+    }, '');
+}
+
 
 module.exports = reverse;

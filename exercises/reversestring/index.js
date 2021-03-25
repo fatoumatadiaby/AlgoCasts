@@ -13,5 +13,15 @@ function reverse(str) {
      .join('')
 
 }
+function reverse(srt) {
+    let reversed = '';
+
+    for (let character of str) {
+       reversed = character + reversed;
+    }
+    
+    return reversed 
+
+}
 
 module.exports = reverse;
